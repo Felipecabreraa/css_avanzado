@@ -1,0 +1,139 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sección de Contactos */
+/* Sección de Contactos */
+.contactos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    flex: 0 0 300px;
+}
+
+.estatus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.estatus-left {
+    display: flex;
+    align-items: center;
+}
+
+.estatus-left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.estatus-right {
+    display: flex;
+    gap: 15px; /* Espacio entre los íconos */
+}
+
+.estatus-right .icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.lista-contactos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 20px;
+    max-height: 400px; /* Altura máxima para activar el scroll */
+    overflow-y: auto;  /* Habilita el desplazamiento vertical */
+    padding-right: 10px; /* Espacio para evitar que el scroll se oculte bajo los elementos */
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contacto img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.nuevo-chat {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.nuevo-chat:hover {
+    background-color: #0056b3;
+}
+
+/* Sección Principal */
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.logo-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-texto img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.logo-texto h1 {
+    margin-bottom: 10px;
+}
+
+.logo-texto p {
+    font-size: 16px;
+    color: #555;
+}
